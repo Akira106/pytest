@@ -1,0 +1,8 @@
+pytest testプログラム -s -自作オプション
+-sで, 標準出力をOKにする
+
+pip install pytest-cov
+pip install pytest-xdist
+
+カバレッジと、テストを通してない
+pytest testプログラム --cov=カバレッジを見たいプログラム --cov-report term-missing
